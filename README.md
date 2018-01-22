@@ -2,7 +2,7 @@
 This is the entry point to my new portfolio.  From here you will be directed to code examples, samples, and demos in various technologies. 
 
 
-| Portfolio           | Description    | Demo       | Comment  |
+| Repository Links           | Description    | Demo       | Comment  |
 | ------------------- |:--------------:|------:| ----------:|
 | [My Resume](https://github.com/jaxonetic-github/react-resume) | A Reactjs implementation of my resume.  | [Codepen](https://codepen.io/jaxonetic/pen/KZrdYK) | It won't always be so vanilla. |
 | [Resource Organizer](https://github.com/jaxonetic-github/resource-organizer-vue) | A Vue js template with Karma testing and jsDoc documentation   | [Codepen](https://codepen.io/jaxonetic/pen/ZvVYKp) |   I will be building upon and/or around this |
