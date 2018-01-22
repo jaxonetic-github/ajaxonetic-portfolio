@@ -1,5 +1,5 @@
 # resume-portal
-This is the entry point to my new portfolio.  From here you will be directed to code examples, samples, and demos in various technologies. 
+This is my current(Jan 22, 2018) entry point to my new portfolio.  From here you will be directed to code examples, samples, and demos in various libraries and frameworks. I decided to start out with Vuejs and React but I will add examples and demos with GoLang, Django, Java, threejs, and many more to show my depth and ability to maintain different and diverse projects.
 
 
 | Repository Links           | Description    | Demo       | Comment  |
