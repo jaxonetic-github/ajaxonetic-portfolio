@@ -7,6 +7,6 @@ For the frontend examples, I will use accounts in Codepen.io or jsfiddle.  After
 
 | Portfolio          | Description    | Demo       | Comment  |
 | ------------- |:--------------:|------:| ----------:|
-| [My Resume] (repository)(https://github.com/jaxonetic-github/react-resume) | A Reactjs implementation of my resume.  | [Codepen](https://codepen.io/jaxonetic/pen/KZrdYK) | It won't always be so vanilla. |
-| [Resource Organizer] | A Vue js template with Karma testing and jsDoc documentation   | Codepen(https://codepen.io/jaxonetic/pen/ZvVYKp) |   $12 |
+| [My Resume](https://github.com/jaxonetic-github/react-resume) | A Reactjs implementation of my resume.  | [Codepen](https://codepen.io/jaxonetic/pen/KZrdYK) | It won't always be so vanilla. |
+| [Resource Organizer](https://github.com/jaxonetic-github/resource-organizer-vue) | A Vue js template with Karma testing and jsDoc documentation   | Codepen(https://codepen.io/jaxonetic/pen/ZvVYKp) |   $12 |
 | [Khan Man](https://codepen.io/jaxonetic/pen/vpvvbQ) | Pacman using the ProcessingJS library   | [Codepen](https://codepen.io/jaxonetic/pen/vpvvbQ) |    $1 |
