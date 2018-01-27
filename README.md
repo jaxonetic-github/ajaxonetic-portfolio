@@ -7,7 +7,7 @@
 >As an interesting side note, my love and skill with computer languages extends from the computer world to the linguistic and musical world as well.  When I'm not geeking out, I try to keep my portuguese, and japanese, alive while re-learning spanish. I also know how to read music and I play the piano, flute, sax, berimbau, and bass guitar (with varying degrees of mastery).
 
 
-This is my current(Jan 22, 2018) entry point to my new portfolio.  From here you will be directed to code examples, samples, and demos in various frontend and backend libraries and frameworks. I decided to start out with Vuejs and React but I will add examples and demos with GoLang, Django, Java, threejs, Selenium, D3, and native and hybrid mobile apps. 
+**This is my current(Jan 22, 2018) entry point to my new portfolio.  From here you will be directed to code examples, samples, and demos in various frontend and backend libraries and frameworks. I decided to start out with Vuejs and React but I will add examples and demos with GoLang, Django, Java, threejs, Selenium, D3, and native and hybrid mobile apps.**
 
 
 | Repository Links           | Description    | Demo       | Comment  |
