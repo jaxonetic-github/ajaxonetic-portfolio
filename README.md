@@ -9,7 +9,7 @@
 
 | Repository Links           | Description    | Demo       | Comment  |
 | ------------------- |:--------------:|------:| ----------:|
-| My [Resume](https://github.com/jaxonetic-github/react-resume) | A Reactjs implementation of my resume.  | [Codepen](https://codepen.io/jaxonetic/pen/KZrdYK) | It won't always be so vanilla. |
+| My [Resume](https://github.com/jaxonetic-github/react-resume) | A Reactjs implementation of my resume.  | [Codepen(react)](https://codepen.io/jaxonetic/pen/KZrdYK) [JSFiddle(threejs)](https://jsfiddle.net/jaxonetic/h6Lmoh1c/)| Always in process... |
 | [Resource Organizer](https://github.com/jaxonetic-github/resource-organizer-vue) | A Vue js template with Karma testing and jsDoc documentation   | [Codepen](https://codepen.io/jaxonetic/pen/ZvVYKp) |   I will be building upon and/or around this |
 | [Khan Man](https://codepen.io/jaxonetic/pen/vpvvbQ) | Pacman using the javascript ProcessingJS library   | [Codepen](https://codepen.io/jaxonetic/pen/vpvvbQ) |    This was something I did for fun when I was living in Brazil |
 | [Khan Man](https://gist.github.com/jaxonetic-github/32e1d3d53188e4ed35e47a97e831c951)| Pacman using the Processing Java library   | Coming... | Like I said, for fun |
