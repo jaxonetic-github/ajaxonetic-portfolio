@@ -1,4 +1,4 @@
-# My portfolio
+# My Portfolio
 
 >####  I have been programming and geeking on computers since 1992, and the days of paschal in high school. As a computer engineer major at Georgia Tech I learned how-to and actually designed and implemented a pipelined computer processor and memory chip down to the level of ones and zeros of transistors and logic gates with [VHDL](https://www.nandland.com/vhdl/tutorials/tutorial-introduction-to-vhdl-for-beginners.html) and simulation in C.  If given the appropriate resources and testing environment, there is nothing I can't do or learn how to do when it comes to languages or getting two or more systems to communicate in an organized and expected way.  I can provide prototyping of new technologies quickly with an infrastucture in place for detailed design documentation and scripted automated end-to-end testing.   I can also work smoothly with a team across different timezones or alone.
 
