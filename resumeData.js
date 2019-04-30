@@ -62,7 +62,15 @@ var workHistoryTestData = function() {
     'Installed and deployed new systems for clients.',
     'Front-end development in Unity3D and AngularJS.  The Unity application communicated with a remote AngularJS website via the UWK.Webkit.'
   ];
-
+  const gcServicesItems = [
+    'Managed accounts with a few hundred consumers, helping them find ways to take their accounts out of “default”.',
+    'Sometimes fielded inbound calls but mostly made outbound calls or internet research to find consumers.',
+     ];
+  
+    const starvingItems = [
+    'Answered incoming calls dealing with various forms of customer service  ranging from claims, sales',
+    'Backed up the dispatcher routing customer requests with movers in real-time',
+     ];
   /**
    * return an object pre configured with data to be displayed in the threejs 3d universe
    *
@@ -168,7 +176,24 @@ var ingeo = workVisualText({
     state: 'GA, USA',
     }, -710, '#8c8c8c', sections.workHistory, techItems);
 
+    var gcServices = workVisualText({
+  instituteFromDate:'July 2018',
+      instituteToDate: 'Dec 2018',
+      institute: 'GC Services',
+      title: 'Collections Rep',
+    city: 'Tucson',
+    state: 'Arizona, USA',
+    }, -780, '#8c8c8c', sections.workHistory, gcServicesItems);
 
+    var starvingStudents = workVisualText({
+  instituteFromDate:'Aug 2017',
+      instituteToDate: 'Dec 2017',
+      institute: 'GC Services',
+      title: 'Collections Rep',
+    city: 'Tucson',
+    state: 'Arizona, USA',
+    }, -850, '#8c8c8c', sections.workHistory, starvingItems);
+  
   //add work tasks to work section
   const versiteHistory = { visualText: versite, items: versiteItems  }
   const presynctHistory = {  visualText: presynct, items: presynctItems}
@@ -179,6 +204,8 @@ var ingeo = workVisualText({
   const secFirstHistory = { visualText: s1tech, items: secFirstItems}
   const techHistory = { visualText: teachingAsst,items: techItems} 
   const reyeHistory = {visualText: righteye, items: reyeItems}
+  const starvingHistory ={visualText:starvingStudents, items: starvingItems}
+  const gcServicesHistory = {visualText:gcServices, items:gcServicesItems}
     
     var workHistoryTitle = {
         t: 'WorkHistory' ,    // text
@@ -198,7 +225,7 @@ var ingeo = workVisualText({
     }
 
   //Make an array of work history data
-  return [ workHistoryTitle, reyeHistory, versiteHistory, presynctHistory, rubberHistory, compuHistory, ingeoHistory, metaHistory, secFirstHistory, techHistory]; 
+  return [ workHistoryTitle,gcServicesHistory, starvingHistory, reyeHistory, versiteHistory, presynctHistory, rubberHistory, compuHistory, ingeoHistory, metaHistory, secFirstHistory, techHistory]; 
 }
 
 var technologyTestData = function() {
@@ -249,7 +276,7 @@ var contactName = {
 }
 
 var contactPhone = {
-  t: '301.456.0039',
+  t: '301.351.5621',
   c: '#8c8c8c',
   x: 'centered',
   y: 185,
