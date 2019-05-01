@@ -135,7 +135,7 @@ var ingeo = workVisualText(ingeoDetails, -500, '#8c8c8c', sections.workHistory, 
   const gcServicesHistory = {visualText:gcServices, items:gcServicesItems, dataObject:gcServicesDetails}
     
     var workHistoryTitle = {
-        t: 'WorkHistory' ,    // text
+        t: 'Work History' ,    // text
         h: 20.75 ,              // height
         s: 71.25 ,              // size
         cSg: 4 ,                // curveSegments
@@ -282,7 +282,7 @@ var educationTestData = function() {
 
 
   return {
-    title : educationTitle,
+    titleObject : educationTitle,
     institutions: [educHistoryTech, educHistoryLang]
   };
 }
