@@ -329,6 +329,7 @@ var educationTestData = function() {
       x: MARGIN_LEFT, //'centered', 
       y: yCoord,
       z: 0,
+      obj: educationInstitute,
       section: section
     }
   }
