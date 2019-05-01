@@ -225,7 +225,8 @@ var ingeo = workVisualText({
     }
 
   //Make an array of work history data
-  return [ workHistoryTitle,gcServicesHistory, starvingHistory, reyeHistory, versiteHistory, presynctHistory, rubberHistory, compuHistory, ingeoHistory, metaHistory, secFirstHistory, techHistory]; 
+  return {titleObject: workHistoryTitle,
+          histories:[gcServicesHistory, starvingHistory, reyeHistory, versiteHistory, presynctHistory, rubberHistory, compuHistory, ingeoHistory, metaHistory, secFirstHistory, techHistory]}; 
 }
 
 var technologyTestData = function() {
