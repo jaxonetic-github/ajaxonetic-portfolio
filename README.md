@@ -5,7 +5,7 @@
 
 | Repository Links           | Description    | Demo       | Comment  |
 | ------------------- |:--------------:|------:| ----------:|
-| See links in demo column | A Reactjs  and Threejs implementation of my resume.  | [React](https://codepen.io/jaxonetic/pen/MXPZWP), [Threejs](https://jsfiddle.net/jaxonetic/h6Lmoh1c/)| Always in process... Also note that the threejs version of the resume must be viewed in a webGl enabled browser|
+| See links in demo column | A Reactjs  and Threejs implementation of my resume.  | [Vue/React](https://codepen.io/jaxonetic/pen/MXPZWP), [Threejs](https://jsfiddle.net/jaxonetic/h6Lmoh1c/)| Always in process... Also note that the threejs version of the resume must be viewed in a webGl enabled browser|
 | [Resource Organizer](https://github.com/jaxonetic-github/resource-organizer-vue) | A Vue js template with Karma testing and jsDoc documentation   | Coming |  I am a fan of jsDoc to document while coding |
 | [Khan Man](https://www.khanacademy.org/computer-programming/khan-man/5835976181022720) | Pacman using the javascript ProcessingJS library   | [Codepen](https://codepen.io/jaxonetic/pen/vpvvbQ) |    This was something I did for fun when I was living in Brazil |
 | [Khan Man](https://gist.github.com/jaxonetic-github/32e1d3d53188e4ed35e47a97e831c951)| Pacman using the Processing Java library   | Coming... | Like I said, for fun |
