@@ -89,59 +89,25 @@ var workHistoryTestData = function() {
     }
   }
 
+  var rightEyeDetails = {instituteFromDate:'April 2015', instituteToDate: 'Dec 2015', institute: 'Righteye, LLC', title: 'Software Engineer',  city: 'Bethesda',  state: 'MD'}
+  var righteye = workVisualText(rightEyeDetails, -150, '#8c8c8c', sections.workHistory, reyeItems);
+  var versiteDetails ={ instituteFromDate:'April 2013', instituteToDate: 'Dec 2013', institute: 'Versite',  title: 'Software Engineer',  city: 'Salvador', state: 'Bahia Brazil' }
+  var versite = workVisualText(versiteDetails, -220, '#8c8c8c', sections.workHistory, versiteItems);
 
-  var righteye = workVisualText({
-  instituteFromDate:'April 2015',
-      instituteToDate: 'Dec 2015',
-      institute: 'Righteye, LLC',
-      title: 'Software Engineer',
-      city: 'Bethesda',
-      state: 'MD'
-    }, -150, '#8c8c8c', sections.workHistory, reyeItems);
-  
-  var versite = workVisualText({
-    instituteFromDate:'April 2013',
-      instituteToDate: 'Dec 2013',
-      institute: 'Versite',
-      title: 'Software Engineer',
-    city: 'Salvador',
-    state: 'Bahia Brazil',
-    }, -220, '#8c8c8c', sections.workHistory, versiteItems);
+  var presynctDetails = { instituteFromDate:'Oct 2010',   instituteToDate: 'Nov 2012', institute: 'Presynct Technologies', title: 'Java Developer', city: 'San Francisco', state: 'CA, USA'}
+  var presynct = workVisualText(presynctDetails, -290, '#8c8c8c', sections.workHistory,presynctItems);
 
+  var rubberDetails= { instituteFromDate:'May 2007',  instituteToDate: 'Feb 2008', institute: 'RubberNetwork', title: 'Java Developer',  city: 'Atlanta', state: 'GA, USA' }
+  var rubber = workVisualText(rubberDetails, -360, '#8c8c8c', sections.workHistory,rubberItems);
 
-  var presynct = workVisualText({
-  instituteFromDate:'Oct 2010',
-      instituteToDate: 'Nov 2012',
-      institute: 'Presynct Technologies',
-      title: 'Java Developer',
-    city: 'San Francisco',
-    state: 'CA, USA',
-    }, -290, '#8c8c8c', sections.workHistory,presynctItems);
-
-  var rubber = workVisualText({
-  instituteFromDate:'May 2007',
-      instituteToDate: 'Feb 2008',
-      institute: 'RubberNetwork',
-      title: 'Java Developer',
-    city: 'Atlanta',
-    state: 'GA, USA',
-    }, -360, '#8c8c8c', sections.workHistory,rubberItems);
-
-var compuCredit = workVisualText({
-  instituteFromDate:'July 2006',
-      instituteToDate: 'Mar 2007',
-      institute: 'CompuCredit',
-      title: 'Software Engineer',
-    city: 'Atlanta',
-    state: 'GA, USA',
-    }, -430, '#8c8c8c', sections.workHistory, compuItems);
+var compuDetails = {instituteFromDate:'July 2006', instituteToDate: 'Mar 2007', institute: 'CompuCredit',  title: 'Software Engineer', city: 'Atlanta', state: 'GA, USA'}
+var compuCredit = workVisualText(compuDetails, -430, '#8c8c8c', sections.workHistory, compuItems);
 
 var ingeoDetails = {instituteFromDate:'Jan 2004', instituteToDate: 'June 2006', institute: 'Ingeo Systems', title: 'Remote Software Engineer', city: 'Logan', state: 'UT, USA'}
 var ingeo = workVisualText(ingeoDetails, -500, '#8c8c8c', sections.workHistory, ingeoItems);
 
   var metaDetails = {instituteFromDate:'Jan 2001', instituteToDate: 'July 2003', institute: 'Metavante (Bank One)', title: 'Software Engineer', city: 'Atlanta', state: 'GA, USA'}
   var metavante = workVisualText(metaDetails, -570, '#8c8c8c', sections.workHistory, metaItems);
-
 
   var s1Details = { instituteFromDate:'Feb 2000', instituteToDate:'Nov 2000', institute:'Security First Technologies (S1)', title: 'Branding Developer', city: 'Atlanta', state: 'GA, USA'};
   var s1tech = workVisualText(s1Details, -640, '#8c8c8c', sections.workHistory,s1tech)
@@ -156,17 +122,17 @@ var ingeo = workVisualText(ingeoDetails, -500, '#8c8c8c', sections.workHistory, 
   var starvingStudents = workVisualText(starvingDetails, -850, '#8c8c8c', sections.workHistory, starvingItems)
   
   //add work tasks to work section, 
-  const versiteHistory = { visualText: versite, items: versiteItems, mainObject:ver }
-  const presynctHistory = {  visualText: presynct, items: presynctItems}
-  const rubberHistory = { visualText: rubber, items: rubberItems}
-  const compuHistory = {  visualText: compuCredit, items: compuItems}
-  const ingeoHistory = {visualText: ingeo, items: ingeoItems}
-  const metaHistory = { visualText: metavante, items: metaItems}
-  const secFirstHistory = { visualText: s1tech, items: secFirstItems}
-  const techHistory = { visualText: teachingAsst,items: techItems} 
-  const reyeHistory = {visualText: righteye, items: reyeItems}
-  const starvingHistory ={visualText:starvingStudents, items: starvingItems}
-  const gcServicesHistory = {visualText:gcServices, items:gcServicesItems}
+  const versiteHistory = { visualText: versite, items: versiteItems, dataObject:versiteDetails }
+  const presynctHistory = {  visualText: presynct, items: presynctItems, dataObject:presynctDetails}
+  const rubberHistory = { visualText: rubber, items: rubberItems, dataObject:rubberDetails}
+  const compuHistory = {  visualText: compuCredit, items: compuItems, dataObject:compuDetails}
+  const ingeoHistory = {visualText: ingeo, items: ingeoItems, dataObject:ingeoDetails}
+  const metaHistory = { visualText: metavante, items: metaItems, dataObject:metaDetails}
+  const secFirstHistory = { visualText: s1tech, items: secFirstItems, dataObject:s1Details}
+  const techHistory = { visualText: teachingAsst,items: techItems, dataObject:techTADetails} 
+  const reyeHistory = {visualText: righteye, items: reyeItems, dataObject:rightEyeDetails}
+  const starvingHistory ={visualText:starvingStudents, items: starvingItems, dataObject:starvingDetails}
+  const gcServicesHistory = {visualText:gcServices, items:gcServicesItems, dataObject:gcServicesDetails}
     
     var workHistoryTitle = {
         t: 'WorkHistory' ,    // text
