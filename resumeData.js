@@ -83,6 +83,7 @@ var workHistoryTestData = function() {
       x: MARGIN_LEFT, //'centered', 
       y: yCoord,
       z: 0,
+      obj:workInstitute,
       section: section,
       subItems: subItems
     }
