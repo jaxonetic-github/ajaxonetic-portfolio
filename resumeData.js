@@ -136,67 +136,27 @@ var compuCredit = workVisualText({
     state: 'GA, USA',
     }, -430, '#8c8c8c', sections.workHistory, compuItems);
 
+var ingeoDetails = {instituteFromDate:'Jan 2004', instituteToDate: 'June 2006', institute: 'Ingeo Systems', title: 'Remote Software Engineer', city: 'Logan', state: 'UT, USA'}
+var ingeo = workVisualText(ingeoDetails, -500, '#8c8c8c', sections.workHistory, ingeoItems);
 
-var ingeo = workVisualText({
-  instituteFromDate:'Jan 2004',
-      instituteToDate: 'June 2006',
-      institute: 'Ingeo Systems',
-      title: 'Remote Software Engineer',
-    city: 'Logan',
-    state: 'UT, USA',
-    }, -500, '#8c8c8c', sections.workHistory, ingeoItems);
+  var metaDetails = {instituteFromDate:'Jan 2001', instituteToDate: 'July 2003', institute: 'Metavante (Bank One)', title: 'Software Engineer', city: 'Atlanta', state: 'GA, USA'}
+  var metavante = workVisualText(metaDetails, -570, '#8c8c8c', sections.workHistory, metaItems);
 
 
-  var metavante = workVisualText({
-  instituteFromDate:'Jan 2001',
-      instituteToDate: 'July 2003',
-      institute: 'Metavante (Bank One)',
-      title: 'Software Engineer',
-    city: 'Atlanta',
-    state: 'GA, USA',
-    }, -570, '#8c8c8c', sections.workHistory, metaItems);
+  var s1Details = { instituteFromDate:'Feb 2000', instituteToDate:'Nov 2000', institute:'Security First Technologies (S1)', title: 'Branding Developer', city: 'Atlanta', state: 'GA, USA'};
+  var s1tech = workVisualText(s1Details, -640, '#8c8c8c', sections.workHistory,s1tech)
 
+  var techTADetails = { instituteFromDate:'Sept 1997', instituteToDate: 'June 1999', institute: 'College of Computing, Georgia Tech', title: 'Senior TA / Head of Quiz Development(Java)', city: 'Atlanta', state: 'GA, USA'}
+  var teachingAsst = workVisualText(techTADetails, -710, '#8c8c8c', sections.workHistory, techItems)
 
+  var gcServicesDetails = {instituteFromDate:'July 2018', instituteToDate: 'Dec 2018', institute: 'GC Services', title: 'Collections Rep', city: 'Tucson', state: 'Arizona, USA'};
+  var gcServices = workVisualText(gcServicesDetails, -780, '#8c8c8c', sections.workHistory, gcServicesItems)
+
+  var starvingDetails = {instituteFromDate:'Aug 2017', instituteToDate: 'Dec 2017', institute: 'Starving Students', title: 'Sales Rep', city: 'Los Angeles', state: 'CA, USA' }
+  var starvingStudents = workVisualText(starvingDetails, -850, '#8c8c8c', sections.workHistory, starvingItems)
   
-  var s1tech = workVisualText({
-  instituteFromDate:'Feb 2000',
-      instituteToDate: 'Nov 2000',
-      institute: 'Security First Technologies (S1)',
-      title: 'Branding Developer',
-    city: 'Atlanta',
-    state: 'GA, USA',
-    }, -640, '#8c8c8c', sections.workHistory,s1tech);
-
-
-  var teachingAsst = workVisualText({
-  instituteFromDate:'Sept 1997',
-      instituteToDate: 'June 1999',
-      institute: 'College of Computing, Georgia Tech',
-      title: 'Senior TA / Head of Quiz Development(Java)',
-    city: 'Atlanta',
-    state: 'GA, USA',
-    }, -710, '#8c8c8c', sections.workHistory, techItems);
-
-    var gcServices = workVisualText({
-  instituteFromDate:'July 2018',
-      instituteToDate: 'Dec 2018',
-      institute: 'GC Services',
-      title: 'Collections Rep',
-    city: 'Tucson',
-    state: 'Arizona, USA',
-    }, -780, '#8c8c8c', sections.workHistory, gcServicesItems);
-
-    var starvingStudents = workVisualText({
-  instituteFromDate:'Aug 2017',
-      instituteToDate: 'Dec 2017',
-      institute: 'GC Services',
-      title: 'Collections Rep',
-    city: 'Tucson',
-    state: 'Arizona, USA',
-    }, -850, '#8c8c8c', sections.workHistory, starvingItems);
-  
-  //add work tasks to work section
-  const versiteHistory = { visualText: versite, items: versiteItems  }
+  //add work tasks to work section, 
+  const versiteHistory = { visualText: versite, items: versiteItems, mainObject:ver }
   const presynctHistory = {  visualText: presynct, items: presynctItems}
   const rubberHistory = { visualText: rubber, items: rubberItems}
   const compuHistory = {  visualText: compuCredit, items: compuItems}
