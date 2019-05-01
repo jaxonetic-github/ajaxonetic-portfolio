@@ -352,7 +352,9 @@ var educationTestData = function() {
  
   /******** End of Education Setup  *******/
 
+
   return {
-    institutions: [educationTitle,educHistoryTech, educHistoryLang]
+    title : educationTitle,
+    institutions: [educHistoryTech, educHistoryLang]
   };
 }
