@@ -1,7 +1,5 @@
-# My Personal Playground
-
 >#### Below is a table of scripts and applications in various levels of development and often with different areas of focus(i.e. documentation, testing, mobile development, databases, front or backend technologies...). I decided to start out with Vuejs and React but I will add examples and demos with GoLang, Django, Java, threejs, Selenium, D3, and native and hybrid mobile apps... These samples are meant to show my ability to develop applications and websites in any technology and integrate then with any api or device with an open socket.
-
+>####
 
 | Repository Links           | Description    | Demo       | Comment  |
 | ------------------- |:--------------:|------:| ----------:|
